@@ -38,9 +38,11 @@ class _HomeScreenState extends State<HomeScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  category.name,
-                  style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600),
+                Expanded(
+                  child: Text(
+                    category.name,
+                    style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600),overflow: TextOverflow.ellipsis,
+                  ),
                 ),
                 Text(
                   '\$${(category.maxAmount - totalAmountSpent).toStringAsFixed(2)} / \$${(category.maxAmount).toStringAsFixed(2)}',

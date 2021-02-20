@@ -34,12 +34,15 @@ class BarChart extends StatelessWidget {
                 iconSize: 30.0,
                 onPressed: () {},
               ),
-              Text(
-                "Nov 10, 2021 - Nov 16,2021",
-                style: TextStyle(
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: 1.2,
+              Expanded(
+                child: Text(
+                  "Nov 10, 2021 - Nov 16,2021",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.w600,
+                    letterSpacing: 1.2,
+
+                  ),overflow: TextOverflow.visible,textAlign: TextAlign.center,
                 ),
               ),
               IconButton(
