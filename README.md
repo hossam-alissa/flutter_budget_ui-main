@@ -1,3 +1,8 @@
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-02-04 at 04 07 54](https://user-images.githubusercontent.com/76788131/106836335-a5102a80-66a1-11eb-8bac-c4eb0acb433f.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-02-04 at 04 08 01](https://user-images.githubusercontent.com/76788131/106836352-ab9ea200-66a1-11eb-97cf-6c00dcc3ead3.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-02-04 at 04 08 13](https://user-images.githubusercontent.com/76788131/106836360-ae999280-66a1-11eb-80bc-c890d7f41642.png)
+
+
 # flutter_budget_ui
 
 A new Flutter project.
